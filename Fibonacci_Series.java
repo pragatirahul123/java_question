@@ -4,12 +4,12 @@ public class Fibonacci_Series {
 
 	public static void main(String[] args) {
 		int var=1;
-		int varx=1; 
-		while (var<10) {
-			System.out.println(var);
+		int varx=0; 
+		while (varx<10) {
+			System.out.println(varx);
 			int z=varx;
-			   var=varx;
-			   varx=z+varx;
+			   varx=var;
+			   var=z+var;
 		}
 
 	}
