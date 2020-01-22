@@ -10,7 +10,7 @@ public class Prime_Number5 {
 		int num = sc.nextInt();
 		int index = 2;
 		int res = 0;
-		for (index = 1; index <= num; index++) {
+		for (index = 2; index <= num; index++) {
 			if (num % index == 0) {
 				res = res + 1;
 			}
