@@ -6,6 +6,7 @@ public class Age_Question {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+		System.out.println("enetr a number");
 		int age = sc.nextInt();
 
 		if (age > 5) {
